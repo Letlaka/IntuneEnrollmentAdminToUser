@@ -41,7 +41,7 @@ To use this script manually:
 1. Open a PowerShell session with administrative privileges.
 2. Run the script with the `UserName` parameter if you want to specify a different user, or let it default to the current user:
    ```powershell
-   .\RemoveAdminUser.ps1 -UserName "SpecificUserName"
+   .\IntuneEnrollmentAdminToUser.ps1 -UserName "SpecificUserName"
    ```
 3. The script will log actions to the console and, if configured, to the Windows Event Log.
 
